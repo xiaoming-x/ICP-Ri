@@ -18,7 +18,7 @@ def get_current_time_filename():
 def get_custom_headers():
     """获取用户自定义的HTTP请求头"""
     custom_headers = {}
-    print("请输入 HTTP 请求头（若无需添加请直接回车）")
+    print("请输入 HTTP 请求头")
     custom_headers["Cookie"] = input("Cookie: ") or None
     custom_headers["Sign"] = input("Sign: ") or None
     custom_headers["Uuid"] = input("Uuid: ") or None
